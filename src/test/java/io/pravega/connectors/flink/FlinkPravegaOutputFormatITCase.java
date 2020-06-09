@@ -11,9 +11,9 @@
 package io.pravega.connectors.flink;
 
 import io.pravega.client.stream.Stream;
-import io.pravega.connectors.flink.utils.IntegerDeserializationSchema;
-import io.pravega.connectors.flink.utils.IntegerSerializationSchema;
-import io.pravega.connectors.flink.utils.SetupUtils;
+import io.pravega.connectors.flink.util.IntegerDeserializationSchema;
+import io.pravega.connectors.flink.util.IntegerSerializationSchema;
+import io.pravega.connectors.flink.util.SetupUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.flink.api.common.typeinfo.BasicTypeInfo;
 import org.apache.flink.api.java.DataSet;

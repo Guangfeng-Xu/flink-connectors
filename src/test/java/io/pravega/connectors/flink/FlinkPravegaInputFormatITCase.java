@@ -11,9 +11,9 @@
 package io.pravega.connectors.flink;
 
 import io.pravega.client.stream.EventStreamWriter;
-import io.pravega.connectors.flink.utils.IntegerDeserializationSchema;
-import io.pravega.connectors.flink.utils.SetupUtils;
-import io.pravega.connectors.flink.utils.ThrottledIntegerWriter;
+import io.pravega.connectors.flink.util.IntegerDeserializationSchema;
+import io.pravega.connectors.flink.util.SetupUtils;
+import io.pravega.connectors.flink.util.ThrottledIntegerWriter;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.flink.api.common.functions.RichMapFunction;

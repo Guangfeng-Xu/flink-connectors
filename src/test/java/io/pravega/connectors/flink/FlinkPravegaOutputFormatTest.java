@@ -13,7 +13,7 @@ import io.pravega.client.ClientConfig;
 import io.pravega.client.EventStreamClientFactory;
 import io.pravega.client.stream.EventStreamWriter;
 import io.pravega.client.stream.Stream;
-import io.pravega.connectors.flink.utils.DirectExecutorService;
+import io.pravega.connectors.flink.util.DirectExecutorService;
 import org.apache.flink.api.common.serialization.SerializationSchema;
 import org.apache.flink.api.common.io.OutputFormat;
 import org.junit.Assert;

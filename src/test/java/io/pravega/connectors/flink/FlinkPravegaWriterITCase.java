@@ -15,9 +15,9 @@ import io.pravega.client.stream.EventStreamWriter;
 import io.pravega.client.stream.Stream;
 import io.pravega.client.stream.TimeWindow;
 import io.pravega.connectors.flink.util.FlinkPravegaUtils;
-import io.pravega.connectors.flink.utils.FailingMapper;
-import io.pravega.connectors.flink.utils.IntegerGeneratingSource;
-import io.pravega.connectors.flink.utils.SetupUtils;
+import io.pravega.connectors.flink.util.FailingMapper;
+import io.pravega.connectors.flink.util.IntegerGeneratingSource;
+import io.pravega.connectors.flink.util.SetupUtils;
 
 import org.apache.flink.util.Preconditions;
 import lombok.Cleanup;
