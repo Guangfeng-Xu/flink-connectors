@@ -7,7 +7,7 @@
  *
  *     http://www.apache.org/licenses/LICENSE-2.0
  */
-package io.pravega.connectors.flink.utils;
+package io.pravega.connectors.flink.util;
 
 import org.apache.flink.runtime.execution.SuppressRestartsException;
 

@@ -12,8 +12,8 @@ package io.pravega.connectors.flink;
 
 import io.pravega.client.stream.Stream;
 import io.pravega.connectors.flink.table.descriptors.Pravega;
-import io.pravega.connectors.flink.utils.SetupUtils;
-import io.pravega.connectors.flink.utils.SuccessException;
+import io.pravega.connectors.flink.util.SetupUtils;
+import io.pravega.connectors.flink.util.SuccessException;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.apache.flink.api.common.typeinfo.TypeInformation;

@@ -7,7 +7,7 @@
  *
  *     http://www.apache.org/licenses/LICENSE-2.0
  */
-package io.pravega.connectors.flink.utils;
+package io.pravega.connectors.flink.util;
 
 import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.runtime.state.CheckpointListener;
@@ -30,5 +30,10 @@ public class NotifyingMapper<T> implements MapFunction<T, T>, CheckpointListener
     @Override
     public void notifyCheckpointComplete(long l) throws Exception {
         TO_CALL_ON_COMPLETION.get().run();
+    }
+
+    @Override
+    public void notifyCheckpointAborted(long checkpointId) throws Exception {
+
     }
 }
